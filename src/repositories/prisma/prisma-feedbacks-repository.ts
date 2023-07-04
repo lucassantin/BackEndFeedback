@@ -10,5 +10,5 @@ export class PrismaFeedbacksRepository implements FeedbacksRepository {
                 screenshot,
             }
         })
-    }   
+    }    
 }

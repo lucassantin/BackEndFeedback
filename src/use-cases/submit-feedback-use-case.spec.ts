@@ -10,7 +10,7 @@ describe("Submit feedback", () => {
         await expect(submitFeedback.execute({
             type: "BUG",
             comment: "example comment",
-            screenshot: "test.jpg",
+            screenshot: "data:image/png;base64,jdhsidhaid79s79syd9sdh",
         })).resolves.not.toThrow();
-    })
-})
+    });
+});
